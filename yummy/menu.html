@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | YummyTreatsNaija</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+     <img src="slazzer-preview-2znhh.png" alt="YummyTreatsNaija Logo">
+    </div>
+
+      <!-- Desktop links -->
+<ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    </ul>
+    <div class="mobile-cart-badge">
+ <li class="cart">
+      <a href="cart.html"><svg xmlns="http://www.w3.org/2000/svg"
+     width="24" height="24" viewBox="0 0 24 24"
+     fill="none" stroke="currentColor"
+     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="9" cy="21" r="1"></circle>
+  <circle cx="20" cy="21" r="1"></circle>
+  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+</svg></a>
+      
+    </li>
+  </div>
+  <!-- Hamburger (hidden on desktop) -->
+  <div class="hamburger">
+ 
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+
+</header>
+
+<!-- Mobile Menu Overlay -->
+<div class="mobile-menu-overlay">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="blog.html">Blog</a></li>
+   
+  </ul>
+</div>
+      
+  </nav>
+  <section class=" welcome">
+    <h1>
+        Menu </h1>
+       
+         </section>
+   
+    <section class="menu-section">
+            <!-- Search Bar -->
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          class="search-bar"
+          placeholder="Search for dishes..."
+        >
+      </div>
+      </div>
+
+      <!-- No Results Message -->
+      <div id="noResults" class="no-results" style="display: none;">
+        <p>Sorry this dish isn't avaliable in menu right now!</p>
+      </div>
+ <div class="menu-cards">
+          <div class="menu-card" data-id="1" data-name="Pepper Soup">
+            <img src="pepper soup.png" alt="Pepper Soup">
+            <h3>Pepper Soup</h3>
+            <p>Hot spicy soup with assorted meat, perfect for warming up.</p>
+            <strong>₦3,000</strong>
+            <button class="btn add-cart-btn">Add to Cart</button>
+          </div>
+          <div class="menu-card" data-id="2" data-name="Suya">
+            <img src="Suya.png" alt="Suya">
+            <h3>Suya</h3>
+            <p>Grilled spicy beef skewers, a street food classic.</p>
+            <strong>₦2,500</strong>
+            <button class="btn add-cart-btn">Add to Cart</button>
+          </div>
+          <div class="menu-card" data-id="3" data-name="Boli and Beans">
+            <img src="boli and beans.jpeg" alt="Boli and Beans">
+            <h3>Boli and Beans</h3>
+            <p>Nicely cooked boli and beans.</p>
+            <strong>₦7,000</strong>
+            <button class="btn add-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+     <div class="menu-cards">
+          <div class="menu-card" data-id="4" data-name="Jollof Rice">
+            <img src="jollof rice.png" alt="Jollof Rice">
+            <h3>Jollof Rice</h3>
+            <p>Classic Nigerian tomato rice, served with grilled chicken.</p>
+            <strong>₦2,500</strong>
+            <button class="btn add-cart-btn">Add to Cart</button>
+          </div>
+          <div class="menu-card" data-id="5" data-name="Egusi Soup">
+            <img src="grilled chicken.png" alt="Egusi Soup">
+            <h3>Egusi Soup & Pounded Yam</h3>
+            <p>Rich melon seed soup served with soft pounded yam.</p>
+            <strong>₦3,500</strong>
+            <button class="btn add-cart-btn">Add to Cart</button>
+          </div>
+          <div class="menu-card" data-id="6" data-name="Fried Rice">
+            <img src="fried rice.jpeg" alt="Fried Rice">
+            <h3>Fried Rice Combo</h3>
+            <p>Colorful Nigerian fried rice with shrimps and veggies.</p>
+            <strong>₦2,700</strong>
+            <button class="btn add-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+    <div class="menu-cards">
+          <div class="menu-card" data-id="7" data-name="Zobo">
+            <img src="chilled zobo.jpeg" alt="Zobo">
+            <h3>Zobo</h3>
+            <p>Refreshing hibiscus drink, lightly spiced and sweetened.</p>
+            <strong>₦800</strong>
+            <button class="btn add-cart-btn">Add to Cart</button>
+          </div>
+          <div class="menu-card" data-id="8" data-name="Tigernut Milk">
+            <img src="tigernut milk.jpeg" alt="Tigernut Milk">
+            <h3>Tigernut Milk</h3>
+            <p>Sweet, creamy plant-based drink made from tigernuts.</p>
+            <strong>₦1,000</strong>
+            <button class="btn add-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+     <div class="menu-cards">
+          <div class="menu-card" data-id="9" data-name="Puff Puff">
+            <img src="Puff puff.png" alt="Puff Puff">
+            <h3>Puff Puff</h3>
+            <p>Golden, fluffy fried dough balls dusted with sugar.</p>
+            <strong>₦700</strong>
+            <button class="btn add-cart-btn">Add to Cart</button>
+          </div>
+          <div class="menu-card" data-id="10" data-name="Shawarma">
+            <img src="sharwama.png" alt="Shawarma">
+            <h3>Shawarma</h3>
+            <p>Delicious wrap with grilled meat and fresh vegetables.</p>
+            <strong>₦1,500</strong>
+            <button class="btn add-cart-btn">Add to Cart</button>
+          </div>
+          <div class="menu-card" data-id="11" data-name="Chin Chin">
+            <img src="small chops.png" alt="Chin Chin">
+            <h3>Chin Chin</h3>
+            <p>Crispy sweet bites, a perfect end to your meal.</p>
+            <strong>₦600</strong>
+            <button class="btn add-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+    </section>
+
+
+  <!-- Footer -->
+  
+  <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>YummyTreatsNaija</h4>
+                    <p>Your satisfaction is our priority.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@YummyTreatsNaija.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                             fill="currentColor" width="24" height="24">
+  <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 
+  5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm10 2a3 3 0 
+  0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h10zM12 7a5 5 0 1 0 5
+   5 5.006 5.006 0 0 0-5-5zm0 8a3 3 0 1 1 3-3 3.004 3.004 0 0 1-3 3zm4.5-8.75a1.25 1.25
+    0 1 0 1.25 1.25A1.252 1.252 0 0 0 16.5 6.25z"/>
+</svg></a>
+                        <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                             fill="currentColor"   width="24" height="24">
+  <path d="M18.244 2H21.5l-7.52 
+  8.59L22 22h-5.766l-4.512-5.652L6.6 22H3.34l8.063-9.205L2 2h5.91l4.09
+   5.192L18.244 2zm-1.006 18h1.396L7.9 4h-1.5l10.838 16z"/>
+</svg>
+</a>
+                        <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" 
+                            fill="currentColor" width="24" height="24">
+  <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 
+  1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.98 0h3.84v2.2h.06c.54-1.02 1.86-2.2
+   3.82-2.2 4.08 0 4.84 2.68 4.84 6.16V24h-4v-7.52c0-1.8-.04-4.12-2.5-4.12-2.5 0-2.88 1.94-2.88 3.98V24h-4V8z"/>
+</svg></a>
+                        <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                             fill="currentColor" width="24" height="24">
+  <path d="M22 12a10 10 0 1 0-11.5 9.95v-7.05h-2v-2.9h2v-2.2c0-2 1.2-3.1
+   3-3.1.9 0 1.8.16 1.8.16v2h-1c-1 0-1.3.63-1.3 1.28v1.86h2.5l-.4 2.9h-2.1v7.05A10 10 0 0 0 22 12z"/>
+</svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+              <p>&copy; 2025 YummyTreatsNaija. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="menu.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>
